@@ -1,0 +1,14 @@
+.navbar{
+  background-color: yellow;
+  border-radius: 15px;
+  width: 1000px;
+  margin: auto;
+}
+.navbar div{
+  display: inline-block;
+  padding: 15px;
+  color: red;
+  font-size: 24px;
+  align-items: center;
+}
+
