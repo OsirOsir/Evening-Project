@@ -28,20 +28,30 @@ button{
   font-size: 25px;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+}
+button:hover{
+  background-color: brown;
+  color: black;
 }
 .sideNavBar{
   background-color: gray;
   width: 100px;
   height: 500px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .sideNavBar div{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-}
-img{
-  object-fit: contain;
+
 }
 
+img{
+cursor: pointer;
+}
