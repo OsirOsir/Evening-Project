@@ -54,6 +54,9 @@ button:hover{
   align-items: center;
 
 }
+.sideNavBar div:hover{
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
 
 img{
 cursor: pointer;
