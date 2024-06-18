@@ -10,6 +10,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   column-gap: 50px;
+  position: relative;
 }
 .gridboxes{
   background-color: gray;
@@ -82,4 +83,11 @@
   font-size: 14px;
   padding: 20px 2px;
 
+}
+#label{
+  position: absolute;
+  left: 300px;
+  bottom: 20px;
+  font-size: 44px;
+  color: white;
 }

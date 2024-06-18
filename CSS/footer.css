@@ -1,0 +1,15 @@
+.footerBox{
+  background-color: rgb(143, 207, 226);
+  height: 60px;
+  width: 1000px;
+  margin-left: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerBox img{
+  height: 50px;
+}
