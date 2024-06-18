@@ -1,9 +1,48 @@
 .mainDiv{
-  display: inline-block;
   background-color: green;
-  height: 500px;
-  width: 1000px;
+  height: 700px;
+  width: 963px;
   margin-top: 120px;
   margin-left: 200px;
+  padding: 20px 20px 0 20px;
   border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 50px;
 }
+.gridboxes{
+  background-color: gray;
+  height: 450px;
+  /* width: 100%; */
+  padding-top: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid black;
+  
+}
+.imgDiv img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+.profile-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-around; */
+
+}
+.profile-info img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+.profile-info p{
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+
