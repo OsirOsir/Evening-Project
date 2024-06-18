@@ -1,0 +1,29 @@
+.sideNavBar{
+  position: fixed; 
+  bottom: 0;
+  top: 120px;
+  background-color: gray;
+  width: 100px;
+  border-radius: 25px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sideNavBar div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.sideNavBar div:hover{
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+
+img{
+cursor: pointer;
+}
+#mainSidebar{
+  display: flex;
+}
